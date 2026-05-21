@@ -1,8 +1,9 @@
 import {SafeAreaProvider, SafeAreaView} from 'react-native-safe-area-context';
 import MyText from './components/MyText/MyText';
+import MyTextClassBased from './components/MyText/MyTextClassBased';
 import { Alert, Text, View } from 'react-native';
 import styles from './style';
-import { useState } from 'react';
+import { useState} from 'react';
 
 function App() {
   const [content, setContent] = useState('Hello and welcome!');
@@ -19,7 +20,7 @@ function App() {
           <MyText title="My mobile app" fontSize={30} styles={styles.myText}
                   onPress= {() => Alert.alert('You clicked on My mobile app')}
           />
-          <MyText title={content} styles={styles.myText} />
+          <MyTextClassBased name={"Anny"} />
         </View>
         <View style={styles.footer}>
           <Text style={styles.footerText}>Copyrights 2026</Text>

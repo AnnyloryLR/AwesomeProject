@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     header:{  
         height: '10%',
-        backgroundColor:'#CCCCCC'},
+        backgroundColor:'#86d79b',},
     headerTitle:{
         color:'white',
         textAlign:'center',
@@ -13,21 +13,21 @@ const styles = StyleSheet.create({
 
     myContent:{
         height: '80%', 
-        backgroundColor: '#8ff2ea', 
+        backgroundColor: '#ffffff', /*'#8ff2ea'*/ 
         alignContent: 'center',
         /*justifyContent: 'center',*/
     },
 
     myText: {
         textAlign: 'center',
-        color: 'blue',
+        color: '#86d79b',
 
 
     },
 
     footer:{
         height: '10%',
-        backgroundColor:'#CCCCCC',
+        backgroundColor:'#86d79b',
         paddingVertical:16,
    },
     footerText:{
